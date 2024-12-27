@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="full-header">
+        <div class="container nav">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <img src="assets/hotel.com" alt="">
+                </div>
+                <div class="shop-travel">
+                    <a href="" class="shop-travel-link"><Span>
+                            Shop travel <i class="fa-solid fa-chevron-down"></i>
+                        </Span></a>
+                </div>
+            </div>
+
+            <div class="nav-right">
+
+                <div class="nav-bar-right me-3">
+                    <li><i class="fa-solid fa-earth-americas me-2"></i>English</li>
+                    <li>List your propety</li>
+                    <li>Support</li>
+                    <li>Trips</li>
+                    <li><i class="fa-solid fa-message"></i></li>
+                    <li class="me-5">Sign in</li>
+                </div>
+
+                <div class="download-app">
+                    <button class="get-app">
+                        <i class="fa-solid fa-download" style="margin-right:0.7rem ;"> </i> Get the app
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <div class="where-to">
+                <h2>Where to?</h2>
+            </div>
+            <div class="travel-details">
+                <div class="input-div">
+                    <!-- <i class="fa-solid fa-location-dot"></i> -->
+                    <input type="text" class=" travel-input" placeholder="Where to?">
+                </div>
+                <div class="input-div">
+                    <input type="text" class=" travel-input" placeholder="Dates">
+                </div>
+                <div class="input-div">
+                    <input type="text" class=" travel-input" placeholder="Travellers">
+                </div>
+                <div>
+                    <input type="button" class="search-btn" value="Search">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer-sign-in">
+        <div class="container">
+            <div class="banner-offer">
+                <div class="left-banner">
+                    <img src="https://a.travel-assets.com/egds/marks/mod_hotels.svg" alt="">
+                    <div>
+                        <span class="banner-text">Members save 10% or more on over 100,000 hotels worldwide when signed
+                            in</span>
+                    </div>
+                </div>
+                <div class="right-banner">
+                    <button class="sign-in-button">Sign in now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-banner">
+        <div class="container">
+            <div class="features">
+                <div class="features-left">
+                    <h2>Find and book your<br>perfect stay</h2>
+                </div>
+
+                <div class="features-right">
+                    <div class="sub-features">
+                        <div><i class="fa-solid fa-moon icon"></i></div>
+                        <div class="features-text">Earn rewards on every <br> night you stay</div>
+                    </div>
+                </div>
+                <div class="features-right">
+                    <div><i class="fa-solid fa-tag icon"></i></div>
+                    <div class="features-text">Save more with<br>Member Prices</div>
+                </div>
+                <div class="features-right">
+                    <div><i class="fa-solid fa-calendar-days icon"></i></div>
+                    <div class="features-text">Free cancellation <br> options if plans <br>change</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="discover">
+        <div class="container ">
+            <div class="discover-main ">
+                <div class="discover-title">
+                    <h4>Discover your new favourite stay</h4>
+                </div>
+                <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-center">
+                                <div class="cards-catelogue discover-cards1"></div>
+                                <div class="cards-catelogue discover-cards2"></div>
+                                <div class="cards-catelogue discover-cards3"></div>
+                                <div class="cards-catelogue discover-cards4"></div>
+                                <div class="cards-catelogue discover-cards5"></div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-center">
+                                <div class="cards-catelogue discover-cards6"></div>
+                                <div class="cards-catelogue discover-cards7"></div>
+                                <div class="cards-catelogue discover-cards8"></div>
+                                <div class="cards-catelogue discover-cards9"></div>
+                                <div class="cards-catelogue discover-cards10"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="container">
+            <div class="explore-main">
+                <div class="explore-heading">
+                    <h3>Explore stays in popular destinations</h3>
+                </div>
+                <div class="explore-cards-section" >
+                    <ul class="nav nav-tabs" id="myTab" role="tablist" style="border: none;" >
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active text-dark" id="beach-tab" data-bs-toggle="tab" data-bs-target="#beach"
+                                type="button" role="tab" >Beach</button>
+                        </li>
+                        <li class="nav-item " role="presentation">
+                            <button class="nav-link text-dark" id="culture-tab" data-bs-toggle="tab" data-bs-target="#culture"
+                                type="button" role="tab" >Culture</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark" id="ski-tab" data-bs-toggle="tab" data-bs-target="#ski"
+                                type="button" role="tab" >Ski</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link text-dark" id="family-tab" data-bs-toggle="tab" data-bs-target="#family"
+                                type="button" role="tab" >Family</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="beach" role="tabpanel" >
+
+                            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                                <div class="MultiCarousel-inner d-flex">
+                                    <!-- 8 Cards inside the carousel -->
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-2.jpg" class="card-img-top" >
+
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-3.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-4.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-5.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary leftLst"><</button>
+                                <button class="btn btn-primary rightLst">></button>
+                            </div>
+
+                        </div>                 
+                        
+                        
+                        <div class="tab-pane fade" id="culture" role="tabpanel" >
+                            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                                <div class="MultiCarousel-inner d-flex">
+                                    <!-- 8 Cards inside the carousel -->
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-2.jpg" class="card-img-top" >
+
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-3.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-4.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-5.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary leftLst"><</button>
+                                <button class="btn btn-primary rightLst">></button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="ski" role="tabpanel" >
+                            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                                <div class="MultiCarousel-inner d-flex">
+                                    <!-- 8 Cards inside the carousel -->
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-2.jpg" class="card-img-top" >
+
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-3.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-4.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-5.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary leftLst"><</button>
+                                <button class="btn btn-primary rightLst">></button>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="family" role="tabpanel" >
+                            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                                <div class="MultiCarousel-inner d-flex">
+                                    <!-- 8 Cards inside the carousel -->
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-2.jpg" class="card-img-top" >
+
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-3.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-4.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-5.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="pad13">
+                                            <div class="card" style="width: 276px; height: 221px; background-color: #f1f1f1;">
+                                                <img src="assets/explore/exp-1.jpg" class="card-img-top" >
+                                                <div class="card-body">
+                                                    <p class="card-text">Warrington <br><span style="font-weight: 500" >London,UK</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary leftLst"><</button>
+                                <button class="btn btn-primary rightLst">></button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="top-deals">
+    <div class="container">
+        <div class="deals-main">
+            <div class="cover-pic">
+                <div class="header-pic-inside">
+                    <div class="header-pic-inside-left">
+                        <h2>Top deals for a last minute getaway</h2>
+                        <span style="color: white; font-family: sans-serif; font-size: medium; margin-left: 4.9px;" >Showing deals for <strong>8 Dec - 10 Dec</strong></span>
+                    </div>
+
+                    <div class="header-pic-inside-right">
+                        <button class="btn rounded-pill " id="deals-btn">Sell all deals</button>
+                    </div>
+                </div>
+                <div class="deals-carousal-main">
+                    <div class="deals">
+                        <div class="deals-card">
+                            <div class="img-cards-deals1"></div>
+                            <p>Mankombu</p>
+                            <h5>The Lake Resort by Matt Hotels</h5>
+                            <div class="reviews">
+                                <div class="rating">
+                                    8.5
+                                </div>
+                                <div class="remark">
+                                    <span style="font-weight: 500;" >Excellent</span>(4 reviews)
+                                </div> 
+                            </div>
+                            <div class="price-details" style="margin-top: 1rem;">
+                                <span style="margin-left:0.4rem;" >$5,920</span> <del>$7,899</del> 
+                                <p >per night</p>
+                                <p>$13,270 total</p>
+                                <p>includes taxes & fees</p>
+                            </div>
+                        </div>
+                        <div class="deals-card">
+                            <div class="img-cards-deals2"></div>
+                            <p>Thiruvanathapuram</p>
+                            <h5>Gokulam Grand Hotel</h5>
+                            <div class="reviews">
+                                <div class="rating">
+                                    8.5
+                                </div>
+                                <div class="remark">
+                                    <span style="font-weight: 500;" >Excellent</span>(4 reviews)
+                                </div>
+
+                            </div>
+                            <div class="price-details" style="margin-top: 1rem;">
+                                <span style="margin-left:0.4rem;" >$5,920</span> <del>$7,899</del> 
+                                <p >per night</p>
+                                <p>$13,270 total</p>
+                                <p>includes taxes & fees</p>
+                            </div>
+                        </div>
+                        <div class="deals-card">
+                            <div class="img-cards-deals3"></div>
+                            <p>Thiruvanathapuram</p>
+                            <h5>Kkm International</h5>
+                            <div class="reviews">
+                                <div class="rating">
+                                    8.5
+                                </div>
+                                <div class="remark">
+                                    <span style="font-weight: 500;" >Excellent</span>(4 reviews)
+                                </div>
+                                
+                            </div>
+                            <div class="price-details" style="margin-top: 1rem;">
+                                <span style="margin-left:0.4rem;" >$5,920</span> <del>$7,899</del> 
+                                <p >per night</p>
+                                <p>$13,270 total</p>
+                                <p>includes taxes & fees</p>
+                            </div>
+                        </div>
+                        <div class="deals-card">
+                            <div class="img-cards-deals4"></div>
+                            <p>Thekkady</p>
+                            <h5>Keys Prima By Lemon Tree Hotels</h5>
+                            <div class="reviews">
+                                <div class="rating">
+                                    8.5
+                                </div>
+                                <div class="remark">
+                                    <span style="font-weight: 500;" >Excellent</span>(4 reviews)
+                                </div>
+
+                            </div>
+                            <div class="price-details" style="margin-top: 1rem;">
+                                <span style="margin-left:0.4rem;" >$5,920</span> <del>$7,899</del> 
+                                <p >per night</p>
+                                <p>$13,270 total</p>
+                                <p>includes taxes & fees</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="download-app">
+        <div class="container">
+            <div class="download-section">
+                <div class="img-download"></div>
+                <div class="download-details">
+                    <div class="title-link">
+                        <h3>With the Hotels.com app, you <br>can:</h3>
+                        <ul>
+                            <li>Save on select hotels</li>
+                            <li>Earn one reward night* for every 10 nights you stay</li>
+                            <li>Search, book and save on the go</li>
+                        </ul>
+                        <p style="font-weight: bold;" >Scan the QR code with you device camera device and download our app</p>
+                        <a href="">*See Hotels.com Rewards terms & condition</a>
+                    </div>
+                    <div class="qr-code">
+                        <img class="qr-code-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="global-navigation">
+        <div class="container">
+            <div class="footer-whole">
+                <div class="footer-title">
+
+                </div>
+                <div class="footer-body">
+                    <div class="destionation-country-pairs">
+                        <div class="top-destination">
+                            <ul class="footer-list" >
+                                <p style="font-size: medium; color: black; margin-bottom: 1px;" >Top Destinations</p>
+                                <li style="margin: 0;" >Hotels in Dubai</li>
+                                <li>Hotels in Dubai</li>
+                                <li>Hotels in Paris</li>
+                                <li>Hotels in London</li>
+                                <li>Hotels in Mumbai</li>
+                                <li>Hotels in New York</li>
+                                <li>Hotels in Bangkok</li>
+                                <li>Hotels in New Delhi</li>
+                                <li>Hotels in Singapore</li>
+                                <li>Hotels in Hydrabad</li>
+                                <li>Hotels in Bengaluru</li>
+                                <li>Hotels in Amsterdam</li>
+                                <li>Hotels in Kolkata</li>
+                                <li>Hotels in Jaipur</li>
+                                <li>Hotels in Istanbul</li>
+                                <li>Hotels in Pune</li>
+                                <li>Hotels in Chennai</li>
+                                <li>Hotels in Hong Kong</li>
+                                <li>Hotels in Rome</li>
+                                <li>Hotels in Las Vegas</li>
+                                <li>Hotels in Krabi</li>
+                                <li>Hotels in Kuala Lumpur</li>
+                                <li>Hotels in Barcelona</li>
+                                <li>Hotels in Agra</li>
+                                <li>Hotels in Tokyo</li>
+                            </ul>
+                        </div>
+                        <div class=" top-countries">
+                            <ul class="footer-list" >
+                                <p style="font-size: medium; color: black; margin-bottom: 1px;" >Top Contries & regions</p>
+                                <li style="margin: 0;" >Hotels in Dubai</li>
+                                <li>Hotels in Maldives</li>
+                                <li>Hotels in Singapore</li>
+                                <li>Hotels in Mauritius</li>
+                                <li>Hotels in Seychelles</li>
+                                <li>Hotels in Sri Lanka</li>
+                                <li>Hotels in India</li>
+                                <li>Hotels in South Mumbai</li>
+                                <li>Hotels in Cappadocia</li>
+                                <li>Hotels in Langakawi</li>
+                                <li>Hotels in Mumbai Suburban</li>
+                                <li>Hotels in Andaman and Nicobar Islands</li>
+                                <li>Hotels in Wayanad District</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="faq-affiliates-pair">
+                        <div class="support-faqs">
+                            <ul class="footer-list" >
+                                <p style="font-size: medium; color: black; margin-bottom: 1px;" >For Suppliers,affiliates and the media</p>
+                                <li style="margin: 0;" >Travel Agents</li>
+                                <li>Affiliate with us</li>
+                                <li>Newsroom</li>
+                                <li>Expedia Partner Solutions</li>
+                                <li>Promote with us</li>
+                            </ul>
+                        </div>
+                        <div class="affiliates">
+                            <ul class="footer-list" >
+                                <p style="font-size: medium; color: black; margin-bottom: 1px;" >Support & FAQs</p>
+                                <li style="margin: 0;" >Review a property</li>
+                                <li>Your bookings</li>
+                                <li>FAQs</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="policies">
+                        <ul class="footer-list" >
+                            <p style="font-size: medium; color: black; margin-bottom: 1px;" >Policies</p>
+                            <li style="margin: 0;" >Cookies</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privacy</li>
+                            <li>Content guideline and reporting content</li>
+        
+
+                        </ul>
+                    </div>
+                    <div class="other-info">
+                        <ul class="footer-list" >
+                            <p style="font-size: medium; color: black; margin-bottom: 1px;" >Other information</p>
+                            <li style="margin: 0;" >About us</li>
+                            <li>Careers</li>
+                            <li>Travel Guides</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+        <div class="copy-right">
+        <span>* Some hotels require you to cancel more than 24 hours before check-in. Details on site.</span><br>
+        <span>© 2024 Hotels.com is an Expedia Group company. All rights reserved.</span><br>
+        <span>Hotels.com and the Hotels.com logo are trademarks or registered trademarks of Hotels.com, LP in the United States and/or other countries. All other trademarks are the property of their respective owners.</span>
+        </div>
+    </footer>
+
+    <script>
+       $(document).ready(function () {
+    var itemsMainDiv = ('.MultiCarousel');
+    var itemsDiv = ('.MultiCarousel-inner');
+    var itemWidth = "";
+
+    $('.leftLst, .rightLst').click(function () {
+        var condition = $(this).hasClass("leftLst");
+        if (condition)
+            click(0, this);
+        else
+            click(1, this)
+    });
+
+    ResCarouselSize();
+
+
+
+
+    $(window).resize(function () {
+        ResCarouselSize();
+    });
+
+    //this function define the size of the items
+    function ResCarouselSize() {
+        var incno = 0;
+        var dataItems = ("data-items");
+        var itemClass = ('.item');
+        var id = 0;
+        var btnParentSb = '';
+        var itemsSplit = '';
+        var sampwidth = $(itemsMainDiv).width();
+        var bodyWidth = $('body').width();
+        $(itemsDiv).each(function () {
+            id = id + 1;
+            var itemNumbers = $(this).find(itemClass).length;
+            btnParentSb = $(this).parent().attr(dataItems);
+            itemsSplit = btnParentSb.split(',');
+            $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+            if (bodyWidth >= 1200) {
+                incno = itemsSplit[3];
+                itemWidth = 276;
+            }
+            else if (bodyWidth >= 992) {
+                incno = itemsSplit[2];
+                itemWidth = 276;;
+            }
+            else if (bodyWidth >= 768) {
+                incno = itemsSplit[1];
+                itemWidth = 276;
+            }
+            else {
+                incno = itemsSplit[0];
+                itemWidth = 276;
+            }
+            $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+            $(this).find(itemClass).each(function () {
+                $(this).outerWidth(itemWidth);
+            });
+
+            $(".leftLst").addClass("over");
+            $(".rightLst").removeClass("over");
+
+        });
+    }
+
+
+    //this function used to move the items
+    function ResCarousel(e, el, s) {
+        var leftBtn = ('.leftLst');
+        var rightBtn = ('.rightLst');
+        var translateXval = '';
+        var divStyle = $(el + ' ' + itemsDiv).css('transform');
+        var values = divStyle.match(/-?[\d\.]+/g);
+        var xds = Math.abs(values[4]);
+        if (e == 0) {
+            translateXval = parseInt(xds) - parseInt(itemWidth * s);
+            $(el + ' ' + rightBtn).removeClass("over");
+
+            if (translateXval <= itemWidth / 2) {
+                translateXval = 0;
+                $(el + ' ' + leftBtn).addClass("over");
+            }
+        }
+        else if (e == 1) {
+            var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+            translateXval = parseInt(xds) + parseInt(itemWidth * s);
+            $(el + ' ' + leftBtn).removeClass("over");
+
+            if (translateXval >= itemsCondition - itemWidth / 2) {
+                translateXval = itemsCondition;
+                $(el + ' ' + rightBtn).addClass("over");
+            }
+        }
+        $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+    }
+
+    //It is used to get some elements from btn
+    function click(ell, ee) {
+        var Parent = "#" + $(ee).parent().attr("id");
+        var slide = $(Parent).attr("data-slide");
+        ResCarousel(ell, Parent, slide);
+    }
+
+});
+    </script>
+
+</body>
+
+</html>
